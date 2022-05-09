@@ -48,3 +48,13 @@ O Principal objetivo dessa organização em camadas é proporcionar um menor aco
 #### 3 - Framework / Banco de Dados
 Foi utiliza Laravel juntamente com Mysql por ser uma combinação bem utilizada.
 Lembrando que a arquiterura do projeto facilita a mudança do banco, que pode ser qualquer um.
+
+**API Rest** | Rotas
+
+Resource|Method|Params
+--|--|--
+/video|POST - Criar Video|-
+/video/{id}|GET - Obter Video|id do video
+/video|GET - Obter lista de Video|?page=1&count_per_page=10&search=homem%aranha
+/video{id}|DELETE - Excluir Video|id do video
+
