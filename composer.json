@@ -1,0 +1,23 @@
+{
+    "name": "robsantossilva/movie_voting",
+    "description": "Movie Voting App",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Core\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Robson Silva",
+            "email": "robsantossilva@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "require": {
+        "symfony/validator": "^6.0",
+        "symfony/uid": "^6.0"
+    }
+}
