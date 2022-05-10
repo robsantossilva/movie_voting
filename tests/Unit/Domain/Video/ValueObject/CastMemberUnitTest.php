@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Unit\Domain\Video\Entity;
+namespace Tests\Unit\Domain\Video\ValueObject;
 
 use Core\Domain\Video\ValueObject\CastMember;
 use PHPUnit\Framework\TestCase;

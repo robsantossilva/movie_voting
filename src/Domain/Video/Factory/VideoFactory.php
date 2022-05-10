@@ -3,7 +3,7 @@
 namespace Core\Domain\Video\Factory;
 
 use Core\Domain\Video\Entity\Video;
-use Symfony\Component\Uid\Uuid;
+use Ramsey\Uuid\Uuid;
 
 class VideoFactory
 {
@@ -16,7 +16,7 @@ class VideoFactory
         float $averageAssessment = 0
     ): Video {
         return new Video(
-            id: Uuid::v4(),
+            id: Uuid::uuid4()->toString(),
             title: $title,
             description: $description,
             genres: $genres,
